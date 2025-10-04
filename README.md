@@ -1,2 +1,1 @@
-# public-demo
-This is a public demo for testing stuff
+This repo showcases test files for terraform and python, including javascript and html files.
