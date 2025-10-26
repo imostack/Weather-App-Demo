@@ -1,7 +1,7 @@
 import requests
 
 def get_weather(city):
-    api_key = "your_api_key_here"  # Replace with your OpenWeatherMap API key
+    api_key = "your_api_key_here" #api_key yet to be gotten - replace when gotten
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     
     response = requests.get(url)
@@ -13,5 +13,5 @@ def get_weather(city):
     else:
         print("City not found or API error.")
 
-# Example usage
-get_weather("Boston")
+#weather location
+get_weather("Lagos")
